@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.menu-links {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-links a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu-links a:hover {
+  color: red;
+}
+
+.menu-icons {
+  float: right;
+  padding: 4px;
+}
+
+.menu-icons a {
+  padding: 15px;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+  border-top: 1px solid red;
+}
+
+.logo {
+  display: block;
+  margin: 20px;
+}
+
+.menu-central {
+  display: block;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center; 
+}
+
+.menu-central li {
+  padding: 10px 20px;
+}
+
+.menu-central a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu-central a img {
+  height: 30px;
+}
+
+.menu-central ul li ul {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);
+  transform: translate(-15px, 17px);
+  display: none;
+  text-align: left;
+}
+
+.menu-central ul li ul li {
+  display: block;
+}
+
+.menu-central ul li ul li a:hover {
+  color: red;
+}
+
+.searchbox {
+  position: absolute;
+  width: 250px;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);
+  float: right;
+  display: none;
+  transform: translate(-260px, 10px);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.content {
+  margin: 50px;
+  text-align: center;
+}
+
+.content div {
+  vertical-align: top;
+  width: 49%;
+  display: inline-block;
+}
+
+.content #div1 {
+  text-align: left;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+.content #div1 #desc {
+  color: gray;
+  font-size: 20px;
+}
+
+#satellite {
+  height: 330px;
+}
+
+
+.footer {
+  margin-top: 500px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background-color: #222 ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.footer-content {
+  width: 90%;
+  height: 100%;
+  display: inline-block;  
+}
+
+.footer-block {
+  display: inline-block;
+  width: 32%;
+  min-height: 320px;
+  vertical-align: top;
+
+}
+
+.block-content {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.block-content h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.block-content h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: red;
+  width: 90%;
+  height: 2px;
+  margin: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);
+}
+
+.block-content li {
+  padding: 5px;
+  display: block;
+}
+
+#middle .row {
+  display: block;
+  padding: 10px 0px 10px 0;
+}
+
+#middle .column {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+#middle .column p {
+  text-align: left;
+  vertical-align: top;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgb(22, 22, 22);
+}
+
+.bottom p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
