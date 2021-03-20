@@ -1,0 +1,116 @@
+.header {
+    position: relative;
+    top: 0px;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu-links {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .menu-links a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .menu-links a:hover {
+    color: red;
+  }
+  
+  .menu-icons {
+    float: right;
+    padding: 4px;
+  }
+  
+  .menu-icons a {
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  hr {
+    margin: 0;
+    border-top: 1px solid red;
+    color:white;
+  }
+  
+  .logo {
+    display: block;
+    margin: 20px;
+  }
+  
+  .menu-central {
+    display: block;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .menu-central li {
+    padding: 10px 20px;
+  }
+  
+  .menu-central a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .menu-central a img {
+    height: 30px;
+  }
+  
+  .menu-central ul li ul {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    transform: translate(-15px, 17px);
+    display: none;
+    text-align: left;
+  }
+  
+  .menu-central ul li ul li {
+    display: block;
+  }
+  
+  .menu-central ul li ul li a:hover {
+    color: red;
+  }
+  
+  .searchbox {
+    position: absolute;
+    width: 250px;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+    float: right;
+    display: none;
+    transform: translate(-260px, 10px);
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    z-index: 50;
+  }
+  
+  li {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }

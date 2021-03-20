@@ -1,0 +1,314 @@
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 500px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 90%;
+  height: 100%;
+  display: inline-block;
+}
+
+.footer-block {
+  display: inline-block;
+  width: 32%;
+  min-height: 320px;
+  vertical-align: top;
+}
+
+.block-content {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.block-content p {
+  width: 90%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.block-content h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.block-content h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: red;
+  width: 90%;
+  height: 2px;
+  margin: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.block-content li {
+  padding: 5px;
+  display: block;
+}
+
+#middle .row {
+  display: block;
+  padding: 10px 0px 10px 0;
+}
+
+#middle .column {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+#middle .column p {
+  text-align: left;
+  vertical-align: top;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgb(22, 22, 22);
+}
+
+.bottom p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.titleheader {
+  display: block;
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #111;
+}
+
+.subtitle {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #999;
+}
+
+.metainfo {
+  display: inline-block;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 11px;
+  margin-bottom: 7px;
+  line-height: 1;
+  min-height: 17px;
+}
+
+.hr2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid red;
+  color: white;
+}
+
+.icons2 {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+  text-align: right;
+  width: 50%;
+}
+
+.textual {
+  display: block;
+  margin: 25px auto 0px auto;
+  position: relative;
+  width: 50%;
+  font-size: 16px;
+  color: #222;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+}
+#mail {
+  border-radius: 2px;
+}
+
+.sublogin {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 100px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: red;
+}
+
+form {
+  display: inline-block;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  border: 1px solid red;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.box div {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.authortext a {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  line-height: 21px;
+  font-weight: 700;
+}
+.authortext a:hover {
+  color: red;
+}
+
+.authortext {
+  width: 70%;
+  font-size: 12px;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 21px;
+}
+
+.authoricon {
+  margin: 20px;
+  width: 20%;
+}
+.adele {
+  margin-top: 10px;
+}
+
+.login-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 5px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container form {
+  padding: 30px;
+}
+
+.form-container form input[type=text] {
+  display: block;
+  width: 90%;
+  position: relative;
+  margin: 15px auto 15px auto;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+.form-container form input {
+  display: inline-block;
+  margin: 15px 0px 15px 15px;
+  outline: none;
+}
+
+.form-container form label {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-container button {
+  display: block;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-container a {
+  text-decoration: underline;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 10px;
+}
+
+#x {
+  display: block;
+  font-size: 30px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-decoration: none;
+  text-align: right;
+}

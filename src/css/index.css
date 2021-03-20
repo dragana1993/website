@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  margin: 50px;
+  text-align: center;
+}
+
+.content div {
+  vertical-align: top;
+  width: 49%;
+  display: inline-block;
+}
+
+.content #div1 {
+  text-align: left;
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+.content #div1 #desc {
+  color: gray;
+  font-size: 20px;
+}
+
+#satellite {
+  height: 330px;
+}
+
+.footer {
+  margin-top: 500px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 90%;
+  height: 100%;
+  display: inline-block;
+}
+
+.footer-block {
+  display: inline-block;
+  width: 32%;
+  min-height: 320px;
+  vertical-align: top;
+}
+
+.block-content {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.block-content h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.block-content h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: red;
+  width: 90%;
+  height: 2px;
+  margin: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.block-content li {
+  padding: 5px;
+  display: block;
+}
+
+#middle .row {
+  display: block;
+  padding: 10px 0px 10px 0;
+}
+
+#middle .column {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+#middle .column p {
+  text-align: left;
+  vertical-align: top;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgb(22, 22, 22);
+}
+
+.bottom p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  color: black;
+}
+
+.title:hover {
+  color: blue;
+}
+
+.content li {
+  margin: 10px;
+  display: block;
+}
